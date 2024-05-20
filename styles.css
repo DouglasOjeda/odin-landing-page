@@ -42,7 +42,7 @@ body {
 }
 
 .first {
-    height: 400px;
+    min-height: 400px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -51,6 +51,7 @@ body {
 
 .first .container {
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
 }
 
@@ -91,7 +92,7 @@ h1 {
 }
 
 .second {
-    height: 400px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     background-color: #caab51;
@@ -101,6 +102,7 @@ h1 {
 
 .second .container {
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
